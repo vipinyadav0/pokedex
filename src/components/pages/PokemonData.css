@@ -1,0 +1,46 @@
+.secondaryContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.secondaryContainer>* {
+    margin: 10px;
+    padding: 10px;
+}
+
+.pokemonFamily {
+    background-color: rgb(203, 255, 238);
+    width: 30%;
+}
+
+.pokemonMultipliers {
+    background-color: rgb(219, 255, 208);
+    width: 30%;
+
+}
+
+.pokemonHelditems {
+    background-color: rgb(188, 188, 255);
+    width: 30%;
+
+}
+
+.pokemonAbilities {
+    background-color: rgb(201, 230, 255);
+    width: 30%;
+
+}
+
+@media screen and (max-width:800px) {
+    .secondaryContainer {
+        flex-direction: column;
+    }
+
+    .secondaryContainer>* {
+        width: 100%;
+    }
+
+
+}
